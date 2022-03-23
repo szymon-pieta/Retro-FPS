@@ -1,0 +1,227 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.30f1 (1fb1bf06830e) revision 2077119'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'pl' Physical Memory: 16322 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\2020.3.30f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Projects Unity/Retro-FPS
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53335
+Successfully changed project path to: D:/Projects Unity/Retro-FPS
+D:/Projects Unity/Retro-FPS
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 32.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
+[Subsystems] Discovering subsystems at path D:/Unity/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Projects Unity/Retro-FPS/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2182)
+    Vendor:   
+    VRAM:     5991 MB
+    Driver:   30.0.14.9729
+Initialize mono
+Mono path[0] = 'D:/Unity/2020.3.30f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56020
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001510 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 30.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.583 seconds
+Domain Reload Profiling:
+	ReloadAssembly (583ms)
+		BeginReloadAssembly (88ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (428ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (148ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (153ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (30ms)
+				BeforeProcessingInitializeOnLoad (14ms)
+				ProcessInitializeOnLoadAttributes (77ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003334 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.976 seconds
+Domain Reload Profiling:
+	ReloadAssembly (977ms)
+		BeginReloadAssembly (172ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (751ms)
+			LoadAssemblies (120ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (265ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (276ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (193ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1506 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.8 MB.
+System memory in use after: 67.9 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1942.
+Total: 2.921100 ms (FindLiveObjects: 0.114600 ms CreateObjectMapping: 0.044200 ms MarkObjects: 2.695400 ms  DeleteObjects: 0.065800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/Pieta_Scene_Profiles
+  artifactKey: Guid(f15cde361624d014d90de20446679590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pieta_Scene_Profiles using Guid(f15cde361624d014d90de20446679590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19670669e7690ab77817f2560c130352') in 0.003886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.285977 seconds.
+  path: Assets/Scenes/Pieta_Scene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pieta_Scene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5402a363655ca553f62f8e4fbda34c99') in 0.012628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.327869 seconds.
+  path: Assets/Scenes/Pieta_Scene 1.unity
+  artifactKey: Guid(c915f9ba015ffc1499a4688934365d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pieta_Scene 1.unity using Guid(c915f9ba015ffc1499a4688934365d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b114f002ba586c472e11cb67a7f16da') in 0.002557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.183830 seconds.
+  path: Assets/Scenes/Pieta_Scene 2.unity
+  artifactKey: Guid(7e355e335086e0549a36e9e4f7a36a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pieta_Scene 2.unity using Guid(7e355e335086e0549a36e9e4f7a36a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9505b5a98e11fb5f2da54d6415fc1dc6') in 0.002468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.196114 seconds.
+  path: Assets/Scenes/Pieta_Scene 3.unity
+  artifactKey: Guid(009991e0f1fc3d34d99e152796274ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pieta_Scene 3.unity using Guid(009991e0f1fc3d34d99e152796274ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd16817094897bf3f70ebd8e21a2613b') in 0.002770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.168018 seconds.
+  path: Assets/Scenes/Pieta_Scene 4.unity
+  artifactKey: Guid(6733cddc8821a0245be5ac5437bbe2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pieta_Scene 4.unity using Guid(6733cddc8821a0245be5ac5437bbe2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06dd629f0d20bbcf2438c37c83b47744') in 0.002724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.690010 seconds.
+  path: Assets/Scenes/Pieta_Scene 5.unity
+  artifactKey: Guid(49ac11aa1dc2a7848812b4f6fa8b106e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pieta_Scene 5.unity using Guid(49ac11aa1dc2a7848812b4f6fa8b106e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be0371da6ba5a646c59e00e53d999b77') in 0.002783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.698248 seconds.
+  path: Assets/Scenes/Pieta_Scene 6.unity
+  artifactKey: Guid(6bc1d314bd5e6164baffdc09d6cbb200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pieta_Scene 6.unity using Guid(6bc1d314bd5e6164baffdc09d6cbb200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb8fe8a21e6f1ef2ed5185e6a137f3b3') in 0.002887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.736920 seconds.
+  path: Assets/Scenes/Pieta_Scene 7.unity
+  artifactKey: Guid(6eda2a557212664489b2cbfa9d6c67fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Pieta_Scene 7.unity using Guid(6eda2a557212664489b2cbfa9d6c67fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6dd393c9acc5f2947217f84da354b60') in 0.002610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.267539 seconds.
+  path: Assets/Scenes/Poniewierski_Scene.unity
+  artifactKey: Guid(c915f9ba015ffc1499a4688934365d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Poniewierski_Scene.unity using Guid(c915f9ba015ffc1499a4688934365d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b200eda24b190b668fdbf08e632c48d0') in 0.002342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.091772 seconds.
+  path: Assets/Scenes/Swierczynski_Scene.unity
+  artifactKey: Guid(7e355e335086e0549a36e9e4f7a36a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Swierczynski_Scene.unity using Guid(7e355e335086e0549a36e9e4f7a36a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '063373378f46bca2aaae5d8a44b82118') in 0.002223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.281800 seconds.
+  path: Assets/Scenes/Zegadlo_Scene.unity
+  artifactKey: Guid(009991e0f1fc3d34d99e152796274ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Zegadlo_Scene.unity using Guid(009991e0f1fc3d34d99e152796274ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e363800951feac18c6246a6c7e32dadd') in 0.002312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.790761 seconds.
+  path: Assets/Scenes/Socha_Scene.unity
+  artifactKey: Guid(6733cddc8821a0245be5ac5437bbe2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Socha_Scene.unity using Guid(6733cddc8821a0245be5ac5437bbe2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95499cad2c3dc6d2f2605925f9566b61') in 0.002268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.195797 seconds.
+  path: Assets/Scenes/Papinski_Scene.unity
+  artifactKey: Guid(49ac11aa1dc2a7848812b4f6fa8b106e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Papinski_Scene.unity using Guid(49ac11aa1dc2a7848812b4f6fa8b106e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6d2780e3bd1fdab4c8cc591e00b87af') in 0.002318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.380453 seconds.
+  path: Assets/Scenes/Stopczynski_Scene.unity
+  artifactKey: Guid(6bc1d314bd5e6164baffdc09d6cbb200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Stopczynski_Scene.unity using Guid(6bc1d314bd5e6164baffdc09d6cbb200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d8b61f34f99e4bfac6fb98bdeac9084') in 0.002151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.857586 seconds.
+  path: Assets/Scenes/Toporek_Scene.unity
+  artifactKey: Guid(6eda2a557212664489b2cbfa9d6c67fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Toporek_Scene.unity using Guid(6eda2a557212664489b2cbfa9d6c67fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e3a1254a352b805dca89d305ddc82a7') in 0.006921 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
