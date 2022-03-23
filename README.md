@@ -1,2 +1,2 @@
-# unity-game-1
+# Retro-FPS
 Unity game for school project 
